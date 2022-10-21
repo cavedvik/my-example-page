@@ -1,8 +1,11 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 *:focus-visible {
+    outline: 1px solid;
+   
+}
+*:focus:not(:focus-visible) {
     outline: none;
 }
-
 i {
     color: currentColor;
 }
@@ -42,6 +45,8 @@ form {
     max-width: 600px;
     display: block;
     margin: 0 auto;
+    box-shadow: 0px 5px 40px #72aeac;
+    border-radius: 5px;
 }
 
 label {
@@ -78,8 +83,8 @@ button:hover, .button:hover{
 }
 
 input {
-
-   border: #72aeac;
+    font-size: 16px;
+    border: #72aeac;
     height: 26px;
     margin-top: 4px;
     border: solid;
