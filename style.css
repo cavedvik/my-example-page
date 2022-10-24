@@ -45,7 +45,7 @@ form {
     max-width: 600px;
     display: block;
     margin: 0 auto;
-    box-shadow: 0px 5px 40px #72aeac;
+    box-shadow: 0px 5px 30px #72aeac;
     border-radius: 5px;
 }
 
@@ -66,6 +66,8 @@ button, .button {
     border-style: none;
     line-height: 24px;
     text-align: center;
+    border-radius: 30px;
+    
 }
 
 .actionbar {
@@ -89,6 +91,7 @@ input {
     border-width: 1px;
     padding: 8px;
     text-indent: 30px;
+    border-radius: 5px;
 
 }
 
@@ -120,6 +123,8 @@ flex: 1;
     .formrow{
      display: flex;
      gap: 24px;
+     padding: 0px;
+     margin: 0px;
     }
   }
 
