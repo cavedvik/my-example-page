@@ -33,7 +33,7 @@ form i {
 }
 
 body {
-    display: flex;
+  margin-top: 32px;
     flex-direction: column;
     justify-content: center;
     background-color: #36555a;
@@ -53,7 +53,7 @@ input[type="checkbox"]:focus {
     outline: max(2px, 0.15em) solid currentColor;
     outline-offset: max(2px, 0.15em);
   }
-  
+
 .checkbox {
     height: auto;
     width: auto;
